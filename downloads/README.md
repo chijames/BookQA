@@ -1,6 +1,6 @@
 # Dataset #
 
-The [OneDrive Link](https://1drv.ms/u/s!ArPzysVAJSvtpYMD8vBWfxGsZU3VqQ?e=BQxnak) contains our processed documents and train/val/test splits. Each document is cut into a list of 200-token trunks. The `dataset_splits.json` follows the format as below:
+Due the copyright, we are not allowed to directly share the datasets. Instead, we only release our data splits that follows the [NarrativeQA](https://github.com/deepmind/narrativeqa) setting but remove several probmatic samples. Please follow the steps [here](https://github.com/deepmind/narrativeqa) to download the full contents. The `dataset_splits.json` follows the format as below:
 ```json
 {
     "train": [
@@ -26,6 +26,7 @@ The [OneDrive Link](https://1drv.ms/u/s!ArPzysVAJSvtpYMD8vBWfxGsZU3VqQ?e=BQxnak)
     ]
 }
 ```
+
 
 
 
